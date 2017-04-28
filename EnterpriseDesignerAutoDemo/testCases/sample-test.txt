@@ -1,0 +1,5 @@
+launchED
+loginED;localhost,8080,admin,admin
+createNewJob;AutomationTestJob1
+addStage;Read From File,350,300
+addStage;Write to File,700,300

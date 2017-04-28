@@ -1,0 +1,17 @@
+<suite name="EndToEnd" verbose="2" thread-count="4">
+    <test name="DesignDoctor">
+        <classes>
+            <class name="com.pb.spectrum.automation.ed.tests.E2E_Test"/>
+        </classes>
+    </test>
+
+    <target name="reports">
+        <junitreport todir="test-report">
+            <fileset dir="test-output">
+                <include name="*/*.xml"/>
+            </fileset>
+            <report format="noframes"  todir="test-report"/>
+        </junitreport>
+    </target>
+
+</suite>

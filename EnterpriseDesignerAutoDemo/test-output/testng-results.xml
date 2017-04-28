@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EndToEnd" duration-ms="110492" started-at="2017-04-27T05:35:03Z" finished-at="2017-04-27T05:36:53Z">
+    <groups>
+    </groups>
+    <test name="DesignDoctor" duration-ms="110492" started-at="2017-04-27T05:35:03Z" finished-at="2017-04-27T05:36:53Z">
+      <class name="com.pb.spectrum.automation.ed.tests.E2E_Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.pb.spectrum.automation.ed.tests.E2E_Test@cbc42f]" name="beforeClass" is-config="true" duration-ms="113" started-at="2017-04-27T11:05:03Z" finished-at="2017-04-27T11:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.pb.spectrum.automation.ed.tests.E2E_Test@cbc42f]" name="test" duration-ms="1" started-at="2017-04-27T11:05:03Z" finished-at="2017-04-27T11:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="launchEnterpriseDesigner()[pri:0, instance:com.pb.spectrum.automation.ed.tests.E2E_Test@cbc42f]" name="launchEnterpriseDesigner" duration-ms="10237" started-at="2017-04-27T11:05:03Z" finished-at="2017-04-27T11:05:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchEnterpriseDesigner -->
+        <test-method status="PASS" signature="loginEnterpriseDesigner()[pri:0, instance:com.pb.spectrum.automation.ed.tests.E2E_Test@cbc42f]" name="loginEnterpriseDesigner" duration-ms="35828" started-at="2017-04-27T11:05:13Z" finished-at="2017-04-27T11:05:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEnterpriseDesigner -->
+        <test-method status="PASS" signature="createNewJob()[pri:0, instance:com.pb.spectrum.automation.ed.tests.E2E_Test@cbc42f]" name="createNewJob" duration-ms="8678" started-at="2017-04-27T11:05:49Z" finished-at="2017-04-27T11:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewJob -->
+        <test-method status="PASS" signature="addReadFromFileStage()[pri:0, instance:com.pb.spectrum.automation.ed.tests.E2E_Test@cbc42f]" name="addReadFromFileStage" duration-ms="4370" started-at="2017-04-27T11:05:58Z" finished-at="2017-04-27T11:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addReadFromFileStage -->
+        <test-method status="PASS" signature="setReadFromFileStageConfig()[pri:0, instance:com.pb.spectrum.automation.ed.tests.E2E_Test@cbc42f]" name="setReadFromFileStageConfig" duration-ms="15666" started-at="2017-04-27T11:06:02Z" finished-at="2017-04-27T11:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReadFromFileStageConfig -->
+        <test-method status="PASS" signature="addWriteToFileStage()[pri:0, instance:com.pb.spectrum.automation.ed.tests.E2E_Test@cbc42f]" name="addWriteToFileStage" duration-ms="4319" started-at="2017-04-27T11:06:18Z" finished-at="2017-04-27T11:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWriteToFileStage -->
+        <test-method status="PASS" signature="setWriteToFileStageConfig()[pri:0, instance:com.pb.spectrum.automation.ed.tests.E2E_Test@cbc42f]" name="setWriteToFileStageConfig" duration-ms="14196" started-at="2017-04-27T11:06:22Z" finished-at="2017-04-27T11:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setWriteToFileStageConfig -->
+        <test-method status="PASS" signature="createChannelForReadAndWriteStage()[pri:0, instance:com.pb.spectrum.automation.ed.tests.E2E_Test@cbc42f]" name="createChannelForReadAndWriteStage" duration-ms="2492" started-at="2017-04-27T11:06:36Z" finished-at="2017-04-27T11:06:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createChannelForReadAndWriteStage -->
+        <test-method status="PASS" signature="saveAndRunJob()[pri:0, instance:com.pb.spectrum.automation.ed.tests.E2E_Test@cbc42f]" name="saveAndRunJob" duration-ms="14575" started-at="2017-04-27T11:06:39Z" finished-at="2017-04-27T11:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveAndRunJob -->
+        <test-method status="PASS" signature="exitEnterpriseDesigner()[pri:0, instance:com.pb.spectrum.automation.ed.tests.E2E_Test@cbc42f]" name="exitEnterpriseDesigner" duration-ms="1" started-at="2017-04-27T11:06:53Z" finished-at="2017-04-27T11:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitEnterpriseDesigner -->
+      </class> <!-- com.pb.spectrum.automation.ed.tests.E2E_Test -->
+    </test> <!-- DesignDoctor -->
+  </suite> <!-- EndToEnd -->
+</testng-results>
